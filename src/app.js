@@ -1,7 +1,7 @@
 var CSFilters = require('cs-filters');
 var angular   = require('angular');
 
-var app = angular.module('cs-filters');
+var app = angular.module('cs-filters', []);
 
 app.filter('bytes',      function() { return CSFilters.Measurements.Bytes; });
 app.filter('bandwidth',  function() { return CSFilters.Measurements.Bytes; });
