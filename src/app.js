@@ -8,4 +8,8 @@ app.filter('kilocase',   function() { return CSFilters.Measurements.KiloCase;  }
 
 app.filter('start-from', function() { return CSFilters.Collections.StartFrom;  });
 
+app.factory('cs-filters', [function() {
+  return CSFilters;
+}]);
+
 module.exports = app;
