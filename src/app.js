@@ -1,5 +1,4 @@
 var CSFilters = require('cs-filters');
-var angular   = require('angular');
 
 var app = angular.module('cs-filters', []);
 
